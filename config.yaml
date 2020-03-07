@@ -1,6 +1,8 @@
 imageWidth      : 1280
 imageHeight     : 720
 
+goldenDataset   : '/home/jmv/data/mlproj10/LeryPosesGolden/dataset'
+datasetDir      : '/home/jmv/data/mlproj10/dataset'
 tmpDir          : '/home/jmv/data/mlproj10/dataset/tmp'
 trnDir          : '/home/jmv/data/mlproj10/dataset/trn' 
 valDir          : '/home/jmv/data/mlproj10/dataset/val' 

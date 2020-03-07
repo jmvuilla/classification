@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 # DSTDIR points to the dataset folder, containing different folders - one per class
-DSTDIR="dataset"
+DSTDIR=$1
 
 # Prints number of images in different folders
 for SUBDIR in $DSTDIR/*
