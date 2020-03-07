@@ -8,7 +8,8 @@ export DSTDIR="dataset"
 rm -r -f $DSTDIR
 mkdir $DSTDIR
 
-# Copy all images (backlight & sidelight) in one folder per class
+# For each class, copy all images in tmp/<class>
+# Then, create training, validation, test and remainder sub-folders
 for SUBDIR in $SRCDIR/*
 do
     echo "Processing folder: `basename $SUBDIR`"
