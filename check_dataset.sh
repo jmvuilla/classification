@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-# Set important variables
+# DSTDIR points to the dataset folder, containing different folders - one per class
 DSTDIR="dataset"
 
 # Prints number of images in different folders
@@ -15,7 +15,3 @@ do
         printf "%s\n" "$N"
     done
 done
-
-# 
-
-
