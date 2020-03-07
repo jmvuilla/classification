@@ -1,12 +1,8 @@
 #!/usr/bin/bash
 
 # Set important variables
-echo $1
-echo $2
 SRCDIR=$1
 DSTDIR=$2
-echo $SRCDIR
-echo $DSTDIR
 
 # Remove destination directory to recreate the dataset from scratch
 rm -r -f $DSTDIR
