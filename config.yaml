@@ -1,11 +1,11 @@
 imageWidth      : 1280
 imageHeight     : 720
 
-tmpDir          : '/home/jmv/data/mlproj1_new/dataset/tmp'
-trnDir          : '/home/jmv/data/mlproj1_new/dataset/trn' 
-valDir          : '/home/jmv/data/mlproj1_new/dataset/val' 
-tstDir          : '/home/jmv/data/mlproj1_new/dataset/tst'
-remDir          : '/home/jmv/data/mlproj1_new/dataset/rem' 
+tmpDir          : '/home/jmv/data/mlproj10/dataset/tmp'
+trnDir          : '/home/jmv/data/mlproj10/dataset/trn' 
+valDir          : '/home/jmv/data/mlproj10/dataset/val' 
+tstDir          : '/home/jmv/data/mlproj10/dataset/tst'
+remDir          : '/home/jmv/data/mlproj10/dataset/rem' 
 
 nTrnSamples     : 2000
 nValSamples     : 671
@@ -15,8 +15,8 @@ nEpochs         : 1000
 batchSize       : 16
 learningRate    : 1e-6 
 
-checkpointDir   : '/home/jmv/data/mlproj1_new/tmp/'
-logDir          : '/home/jmv/data/mlproj1_new/logs/v01/'
+checkpointDir   : '/home/jmv/data/mlproj10/tmp/'
+logDir          : '/home/jmv/data/mlproj10/log/'
 
-createDataset   : False
+createDataset   : True
 checkDataset    : True
