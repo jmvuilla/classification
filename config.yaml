@@ -1,5 +1,5 @@
-imageWidth      : 1280
-imageHeight     : 720
+imageWidth      : 640
+imageHeight     : 360
 
 goldenDataset   : '/home/jmv/data/mlproj10/LeryPosesGolden/dataset'
 datasetDir      : '/home/jmv/data/mlproj10/dataset'
