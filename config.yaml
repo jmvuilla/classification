@@ -23,4 +23,5 @@ logDir          : '/home/jmv/data/mlproj10/log/'
 createDataset   : True
 checkDataset    : True
 
+# Possible values for variable classification: 'binary' or 'categorical'
 classification  : 'binary'
