@@ -22,3 +22,5 @@ logDir          : '/home/jmv/data/mlproj10/log/'
 
 createDataset   : True
 checkDataset    : True
+
+classification  : 'binary'
