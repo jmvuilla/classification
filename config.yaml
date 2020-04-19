@@ -1,24 +1,20 @@
-imageWidth      : 1280
-imageHeight     : 720
+imageWidth      : 768
+imageHeight     : 500
 
-goldenDataset   : '/home/jmv/data/mlproj10/LeryPosesGolden/dataset'
-datasetDir      : '/home/jmv/data/mlproj10/dataset'
-tmpDir          : 'tmp'
-trnDir          : 'trn' 
-valDir          : 'val' 
-tstDir          : 'tst'
-remDir          : 'rem' 
+goldenDataset   : '/home/jmv/data/mlproj11/SignifyGolden20191212/dataset'
 
-nTrnSamples     : 2000
-nValSamples     : 671
-nTstSamples     : 671
+# The application assumes that that trnDir, valDir & tstDir are folders under datasetDir
+datasetDir      : '/home/jmv/data/mlproj11/dataset'
+trnDir          : '/home/jmv/data/mlproj11/dataset/trn' 
+valDir          : '/home/jmv/data/mlproj11/dataset/val' 
+tstDir          : '/home/jmv/data/mlproj11/dataset/tst'
 
 nEpochs         : 1000 
-batchSize       : 16
-learningRate    : 1e-6 
+batchSize       : 8
+learningRate    : 1e-3
 
-checkpointDir   : '/home/jmv/data/mlproj10/tmp/'
-logDir          : '/home/jmv/data/mlproj10/log/'
+checkpointDir   : '/home/jmv/data/mlproj11/tmp/'
+logDir          : '/home/jmv/data/mlproj11/log/'
 
 createDataset   : True
 checkDataset    : True
